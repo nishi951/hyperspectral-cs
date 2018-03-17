@@ -3,7 +3,7 @@ from matplotlib.colors import LinearSegmentedColormap
 def plot_all_channels(data, channels_to_wavelengths):
     """Plot the channels in the data, color coded by wavelength.
     channels_to_wavelengths[i] gives the wavelength in nm of the ith channel."""
-    plt.figure(figsize=(13, 29))
+    plt.figure(figsize=(24, 13))
     inchannels = data.shape[1]
     for channel in range(inchannels):
         wavelength = channels_to_wavelengths[channel]
@@ -20,10 +20,11 @@ def plot_all_channels(data, channels_to_wavelengths):
         }
         lambd = LinearSegmentedColormap('lambd', cdict)
 
-        ax = plt.subplot(inchannels//4+1,4, channel+1)
+        ax = plt.subplot(4, inchannels//4+1, channel+1)
 
         ax.imshow(data[0,channel,:,:], cmap=lambd)
-        plt.tight_layout()
+        plt.axis('off')
+        plt.tight_layout
 
 # Adapted from
 # https://stackoverflow.com/questions/3407942/rgb-values-of-visible-spectrum/22681410#22681410
