@@ -14,10 +14,10 @@
 
 # Special useful files
 !checkpoints/checkpoint_epoch_59.pth.tar
-!data/train_large.csv			
-!data/val_large.csv			
-!data/test_large.csv			
-!data/kaist_set/kaist_select.csv	
+!data/train_large.csv
+!data/val_large.csv
+!data/test_large.csv
+!data/kaist_set/kaist_select.csv
 
 
 # Byte-compiled / optimized / DLL files

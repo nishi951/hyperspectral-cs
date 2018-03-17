@@ -1,0 +1,16 @@
+type,dir,name,row,col,side,scale,flip
+exr,data/KAIST,scene22_reflectance.exr,1648,540,96,1,False
+exr,data/KAIST,scene22_reflectance.exr,1648,724,96,1,False
+exr,data/KAIST,scene22_reflectance.exr,1546,1798,96,1,True
+exr,data/KAIST,scene22_reflectance.exr,1448,2684,96,1,True
+exr,data/KAIST,scene22_reflectance.exr,816,628,96,1,True
+exr,data/KAIST,scene17_reflectance.exr,1728,848,96,1,True
+exr,data/KAIST,scene17_reflectance.exr,1724,938,96,1,True
+exr,data/KAIST,scene17_reflectance.exr,1248,1510,96,1,True
+exr,data/KAIST,scene17_reflectance.exr,1774,1786,96,1,True
+exr,data/KAIST,scene17_reflectance.exr,1330,844,96,1,True
+exr,data/KAIST,scene26_reflectance.exr,1562,802,96,1,True
+exr,data/KAIST,scene26_reflectance.exr,1560,900,96,1,True
+exr,data/KAIST,scene26_reflectance.exr,1438,1980,96,1,True
+exr,data/KAIST,scene26_reflectance.exr,1134,2416,96,1,True
+exr,data/KAIST,scene26_reflectance.exr,1094,816,96,1,True
